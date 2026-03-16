@@ -1,3 +1,5 @@
+# 📈 《反熵生命论》研究进度
+>[![](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FCaterhan%2FAnti-Entropic-Life-Theory&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=%E8%B7%A8%E7%BB%B4%E8%AE%BF%E5%AE%A2&edge_flat=false)](https://hits.seeyoufarm.com
 # Anti-Entropic-Life-Theory
 The Ontology of Information in Anti-Entropic Life Theory – From the Universe to Communism
 🌌 Anti-Entropic-Life-Theory (Project 453)
