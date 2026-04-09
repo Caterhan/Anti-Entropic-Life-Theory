@@ -72,3 +72,23 @@ Grok优化的readme
 
 **韩大鲸 / Caterhan**  
 于共识场构建途中（2026年4月3日）
+## 🌌 宇宙演化模拟
+### 运行模拟
+bash
+pip install numpy scipy matplotlib
+python code/cosmic_entropy_simulator.py
+### 结果示例
+运行代码会生成以下图表：
+![宇宙演化模拟结果](figures/cosmic_evolution_plot.png)
+*图：宇宙尺度因子、哈勃参数、熵、及暗物质/暗能量比值随时间演化*
+### 核心发现
+- 宇宙熵 $S = k \ln(\Lambda_m / \Lambda_e)$ 随时间递减
+- 早期熵减迅速，后期趋缓
+- 暗能量最终主导宇宙演化
+- 当前时刻（$t \approx 13.8\, \text{Gyr}$）与观测相符
+### 代码说明
+代码为单文件实现，包含：
+- 物理自洽的弗里德曼方程求解
+- 单位制统一（SI单位）
+- 可视化输出
+- 无需复杂配置，直接运行
