@@ -72,23 +72,39 @@ Grok优化的readme
 
 **韩大鲸 / Caterhan**  
 于共识场构建途中（2026年4月3日）
+
 ## 🌌 宇宙演化模拟
 ### 运行模拟
+ 
 bash
+  
 pip install numpy scipy matplotlib
-python code/cosmic_entropy_simulator.py
-### 结果示例
+python han_anti_entropy_cosmology_v1.py
+ 
+结果示例
 运行代码会生成以下图表：
-![宇宙演化模拟结果](figures/cosmic_evolution_plot.png)
-*图：宇宙尺度因子、哈勃参数、熵、及暗物质/暗能量比值随时间演化*
-### 核心发现
-- 宇宙熵 $S = k \ln(\Lambda_m / \Lambda_e)$ 随时间递减
-- 早期熵减迅速，后期趋缓
-- 暗能量最终主导宇宙演化
-- 当前时刻（$t \approx 13.8\, \text{Gyr}$）与观测相符
-### 代码说明
-代码为单文件实现，包含：
-- 物理自洽的弗里德曼方程求解
-- 单位制统一（SI单位）
-- 可视化输出
-- 无需复杂配置，直接运行
+![宇宙演化模拟结果](cosmic_evolution_lcdm_vs_anti_entropy.png2.  cosmic_entropy_evolution_anti_entropy.png3.  jades_gs_z13_0_mass_validation.png)
+图：两套模型下宇宙尺度因子、哈勃参数、熵演化与 JADES-GS-z13-0 星系质量对比 
+ 
+核心发现
+ 
+- 基于反熵生命论的熵演化公式：
+S = k \ln(\Lambda_m / \Lambda_e)
+- 早期宇宙熵减主导，结构可快速成熟，与韦伯观测一致
+- 早期膨胀较慢、后期加速，自然解释高红移“早熟星系”
+- 哈勃张力源于局部泡泡与全局网络的膨胀速率差异
+- 对 JADES-GS-z13-0 质量预测显著优于标准 ΛCDM 模型
+
+代码说明
+ 
+项目包含两套完整宇宙模型：
+
+- 反熵生命论模型： han_anti_entropy_cosmology_v1.py 
+​
+- 标准 ΛCDM 对比模型： han_lcdm_standard_cosmology.py 
+​
+- 自洽的宇宙动力学与熵演化计算
+​
+- 直接生成可视化对比图
+
+- 开箱即用，无需额外配置
